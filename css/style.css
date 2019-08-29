@@ -1,8 +1,12 @@
-.main{
+.wrapper{
     border: 1px solid #dddddd;
     background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    width: 100%;
 }
 
+.main-container{
+    background: white;
+}
 
 imgs{
     padding: 5px
@@ -40,4 +44,32 @@ footer{
     font-size: 10px;
 }
 /* portfolio stylings */
-img
+.carousel-caption h1{
+    background-color: #4aaaa5;
+    font-size: 1.5rem;
+}
+
+.carousel-caption{
+    right: 27%;
+    left: 0%;
+    bottom: 0px;
+    padding-bottom: 0px;
+}
+.img-fluid{
+    max-width: 70%;
+}
+
+/* contact stylings */
+
+.form-control{
+    width: 100%;
+}
+
+.form-wrapper{
+    background-color: white;
+    width: 960px;
+}
+
+.form-group{
+    margin: 10px;
+}
